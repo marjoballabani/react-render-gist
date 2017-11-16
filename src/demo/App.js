@@ -1,11 +1,9 @@
 import React from 'react';
-import Example from '../lib';
-import { SecondExample } from '../lib';
+import RenderGist from '../lib';
 
 const App = () => (
   <div>
-    <Example />
-    <SecondExample />
+    <RenderGist gist="022e04e7650b1a763ca74425b60d9ea2" />
   </div>
 );
 
