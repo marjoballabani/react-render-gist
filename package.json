@@ -1,6 +1,6 @@
 {
   "name": "react-render-gist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Render a github gist as Component for your react app",
   "main": "build/index.js",
   "scripts": {
