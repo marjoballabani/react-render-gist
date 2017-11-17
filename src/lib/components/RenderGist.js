@@ -2,6 +2,8 @@ import React, {
 	Component
 } from 'react';
 
+import loading from './loading.gif'
+
 class RenderGist extends Component {
 
 	constructor(props) {
@@ -40,7 +42,7 @@ class RenderGist extends Component {
 	}
 
 	render() {
-		return this.state.iaLoading ? <div> Loading... </div> : <div dangerouslySetInnerHTML={{__html: this.state.src}} / >
+		return this.state.iaLoading ? <img className="loading-logo" src={loading} alt=""/> : <div dangerouslySetInnerHTML={{__html: this.state.src}} / >
 	}
 	nextId() {
 		return `cb${++gistCallbackId}`
