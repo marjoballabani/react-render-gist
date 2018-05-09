@@ -13,10 +13,4 @@ install it using npm:
 ```
 
 ### Use it inside your component
-
-```javascript
-import RenderGist from 'react-render-gist'
-...
-// Your gist id
-<RenderGist gist="022e04e7650b1a763ca74425b60d9ea2" />
-```
+![](https://image.ibb.co/mdOrg7/bugfit_inside.png)
